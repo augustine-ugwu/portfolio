@@ -176,6 +176,15 @@
         font-family: 'Segoe UI';
     }
 
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 100%;
+        padding-right: 0px;
+        padding-left: 0px;
+        margin-right: auto;
+        margin-left: auto;
+    
+    }
+
     .navtext {
         padding-top: 15px;
     }
@@ -187,11 +196,12 @@
     }
 
     #mid {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        padding-left: 50px;
-        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10opx;
+        padding-right: 10opx;
     } 
+
 
     .navbar {
         /* opacity: 2; */
